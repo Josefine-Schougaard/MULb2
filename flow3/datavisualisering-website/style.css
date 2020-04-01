@@ -1,6 +1,8 @@
-
-
 .backimage{
     height: 30vh;
    
+}
+
+p, h1, h2, h3{
+    font-family:'Noto Sans', sans-serif;
 }
