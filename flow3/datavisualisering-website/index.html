@@ -7,8 +7,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-    <title>Forside udkast</title>
+    <title>Datavisualisering af danskernes ændrede madvaner</title>
   </head>
   <body>
     
@@ -30,15 +31,21 @@
                   <a href="#graf-to" class="nav-link">Kødfrie dage</a>
               </li>
               <li class="nav-item">
-                  <a href="#graf-tre" class="nav-link">Vegi-varer</a>
+                  <a href="#graf-tre" class="nav-link">Hvorfor spiser man mindre kød?</a>
               </li>
               <li class="nav-item">
-                  <a href="#graf-fire" class="nav-link">Æg</a>
+                  <a href="#graf-fire" class="nav-link">Salg af vegi-varer</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#graf-fem" class="nav-link">Plantedrikke</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#graf-seks" class="nav-link">Salg af æg</a>
               </li>
           </ul> 
        </div>
     </nav>
-    <div class="backimage" style="background-image: url('food4.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="backimage" alt="Billede af grøntsager" style="background-image: url('food4.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
         <div class="mask rgba-black-light align-items-center">
             <div class="container">
                <div class="row align-items-center">
@@ -55,8 +62,8 @@
     <div class="container-fluid">
         <div class="row align-items-center bg-light pb-5 pt-5">
            <div class="col-12 col-md-8 order-sm-2 order-md-1">
-               <div class="flourish-embed flourish-chart" data-src="visualisation/1732407" data-url="https://public.flourish.studio/visualisation/1732407/embed"><script src="https://public.flourish.studio/resources/embed.js"></script><a href="#" name="graf-et"></a></div>
-
+               <a href="#" name="graf-et"></a>
+               <div class="flourish-embed flourish-chart" data-src="visualisation/1751045" data-url="https://flo.uri.sh/visualisation/1751045/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
            </div>
             <div class="col-12 col-md-4 order-sm-1 order-md-2">
                <div class="ml-4 mr-4">
@@ -73,17 +80,43 @@
                 </div>
             </div>
             <div class="col-12 col-md-8">
-               <div class="flourish-embed flourish-chart" data-src="visualisation/1732617" data-url="https://public.flourish.studio/visualisation/1732617/embed"><script src="https://public.flourish.studio/resources/embed.js"></script><a href="#" name="graf-to"></a></div> 
+               <a href="#" name="graf-to"></a>
+               <div class="flourish-embed flourish-chart" data-src="visualisation/1751366" data-url="https://flo.uri.sh/visualisation/1751366/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div> 
             </div>
         </div>
         <div class="row align-items-center bg-light pt-5 pb-5">
            <div class="col-12 col-md-8 order-xs-2 order-sm-2 order-md-1">
-               <div class="flourish-embed flourish-chart" data-src="visualisation/1732588" data-url="https://public.flourish.studio/visualisation/1732588/embed"><script src="https://public.flourish.studio/resources/embed.js"></script><a href="#" name="graf-tre"></a></div>
+               <a href="#" name="graf-tre"></a>
+               <div class="flourish-embed flourish-chart" data-src="visualisation/1751427" data-url="https://flo.uri.sh/visualisation/1751427/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
            </div>
             <div class="col-12 col-md-4 order-xs-1 order-sm-1 order-md-2">
                <div class="ml-4 mr-4">
-                   <h2 class="text-uppercase">Salg af vegi-varer</h2>
-                    <p>Siden 2009 er salget af vegi-varer hos Coop steget meget, det er mere end tredoblet hen over 10 år. Dette ses sammen med at flere danskere begynder at holde flere kødfrie dage om ugen, og generelt er blevet mere bevidste om hvor meget kød de indtager. Vegi-varer er ikke løse grøntsager, men i stedet produkter der ikke indeholder kød og er forarbejdet i en vis grad. Dette kunne være linsebøffer, plantefars eller pålæg m.m..</p>
+                   <h2 class="text-uppercase">Årsager til mindsket salg af kød</h2>
+                    <p>Her ses et overblik over hvad folk har givet af grund til at de prøver at undgå at spise kød og hvor mange der har samme mening.<br>Dette er taget ud fra en analyse foretaget af Coop.</p>
+                </div>
+           </div>
+        </div>
+        <div class="row align-items-center bg-light pt-5 pb-5">
+           <div class="col-12 col-md-4">
+               <div class="ml-4 mr-4">
+                   <h2 class="text-uppercase">Salg af vegi-varer hos Coop</h2>
+                    <p>Derudover kan vi også se en forskel på salg af varer der er lavet vegansk, altså uden kød.<br> På grafen herunder kan man se hvordan der, efter 2012, sker noget, som får salget til at stige og det ser ud til at fortsætte.<br> Dette er taget ud fra en analyse foretaget af Coop.</p>
+                </div>
+           </div>
+            <div class="col-12 col-md-8">
+               <a href="#" name="graf-fire"></a>
+               <div class="flourish-embed flourish-chart" data-src="visualisation/1751178" data-url="https://flo.uri.sh/visualisation/1751178/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+           </div>
+        </div>
+        <div class="row align-items-center bg-light pt-5 pb-5">
+           <div class="col-12 col-md-8 order-xs-2 order-sm-2 order-md-1">
+               <a href="#" name="graf-fem"></a>
+               <div class="flourish-embed flourish-chart" data-src="visualisation/1733649" data-url="https://public.flourish.studio/visualisation/1733649/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+           </div>
+            <div class="col-12 col-md-4 order-xs-1 order-sm-1 order-md-2">
+               <div class="ml-4 mr-4">
+                   <h2 class="text-uppercase">Salg af plantebaseret drikkevare</h2>
+                    <p>Plantebaserede drikke, som fx Havre- Ris- og Sojamælk har længe været et godt alternativ til mennesker der lever som vegetar/vegansk. Denne graf viser udviklingen for salg af plantebaseret drikkevarer, i en udvikling over 10 år. Ud fra denne kan vi se at 2018 var året hvor Coop målte den største stigning, hvilket vi kan formode vil forsætte.<br> Dette er taget ud fra en analyse foretaget af Coop. </p>
                 </div>
            </div>
         </div>
@@ -95,11 +128,10 @@
                 </div>
            </div>
             <div class="col-12 col-md-8">
-               <div class="flourish-embed flourish-chart" data-src="visualisation/1732148" data-url="https://public.flourish.studio/visualisation/1732148/embed"><script src="https://public.flourish.studio/resources/embed.js"></script><a href="#" name="graf-fire"></a></div>
+               <a href="#" name="graf-seks"></a>
+               <div class="flourish-embed flourish-chart" data-src="visualisation/1732148" data-url="https://public.flourish.studio/visualisation/1732148/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
            </div>
         </div>
-        
-        
     </div>
     
     <footer class="page-footer font-small blue pt-4 bg-dark">
@@ -110,7 +142,8 @@
 
           <div class="col-md-6 mt-md-0 mt-3">
             <h6 class="text-uppercase pl-5 text-black-50">Flowprojekt – website med datavisualisering</h6>
-            <p class="pl-5 text-white-50">Projektopgaven er at bygge et website op med Bootstrap, som visualiserer<br> et selvvalgt datasæt på forskellige måder, ved hjælp af Flourish.</p>
+            <p class="pl-5 text-white-50">Projektopgaven er at bygge et website op med Bootstrap, som visualiserer<br> et selvvalgt datasæt på forskellige måder, ved hjælp af Flourish.<br><a href="Refleksion-gruppe-B7.pdf" target="_blank" class="text-decoration-none text-info" >Refleksion over gruppearbejde</a></p>
+            
           </div>
 
           <hr class="clearfix w-100 d-md-none pb-3">
@@ -119,7 +152,7 @@
             <h6 class="text-uppercase text-white-50">Links brugt til <br>indsamling af data</h6>
             <ul class="list-unstyled">
               <li>
-                <a href="www.coopanalyse.dk" class="text-decoration-none text-info">Coopanalyse</a>
+                <a href="www.coopanalyse.dk" class="text-decoration-none text-info" target="_blank">Coopanalyse</a>
               </li>
             </ul>
           </div>
@@ -128,13 +161,13 @@
             <h6 class="text-uppercase text-white-50">Links til portfolier</h6>
             <ul class="list-unstyled">
               <li>
-                <a href="http://byespensen.dk/eksamensportfolioforside.html" class="text-decoration-none text-info">Regitze</a>
+                <a href="http://byespensen.dk/eksamensportfolioforside.html" class="text-decoration-none text-info" target="_blank">Regitze</a>
               </li>
               <li>
-                <a href="josefineschougaard.dk" class="text-decoration-none text-info">Josefine</a>
+                <a href="josefineschougaard.dk" class="text-decoration-none text-info" target="_blank">Josefine</a>
               </li>
               <li>
-                <a href="www.designlykke.dk" class="text-decoration-none text-info">Maja</a>
+                <a href="www.designlykke.dk" class="text-decoration-none text-info" target="_blank">Maja</a>
               </li>
             </ul>
           </div>
